@@ -5,6 +5,11 @@ import bag_1 from "./assets/bag_1.png";
 import bag_2 from "./assets/bag_2.png";
 import bag_3 from "./assets/bag_2.png";
 import bag_4 from "./assets/bag_2.png";
+import Tile from "./components/tile/Tile";
+import brand from "./assets/brand.png";
+import our_story from "./assets/our_story.png";
+
+
 
 function App() {
   return (
@@ -23,6 +28,29 @@ function App() {
 
 
           </main>
+          <footer>
+              <section>
+                  <Tile title="The Brand"/>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos ea earum esse odio
+                      quis, quod vero? Consequatur corporis cupiditate ducimus, ex molestias sequi? Deleniti expedita
+                      omnis quasi reprehenderit unde.</p>
+              </section>
+              <section>
+                  <Tile image={brand}/>
+
+
+              </section>
+              <section>
+                  <Tile image={our_story}/>
+              </section>
+              <section>
+                  <Tile title="our_story"/>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eos illo in minus natus numquam
+                      quas quos! Delectus, minima quibusdam?</p>
+              </section>
+
+          </footer>
 
       </>
   )
