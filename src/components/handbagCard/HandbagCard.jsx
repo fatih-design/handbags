@@ -4,7 +4,13 @@ function HandbagCard(props) {
 
     return (
         <>
-            <h1>HOI</h1>
+            <article>
+                <span>{props.handBagLabel} </span>
+                <img src={props.image} alt={props.name}/>
+                <h4>{props.name}</h4>
+                <p>{props.price}</p>
+
+            </article>
         </>
     );
 
